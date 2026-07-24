@@ -1,0 +1,47 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Files for the ART/DALVIK VM
+*.class
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+
+# Secrets, Properties & Credentials
+local.properties
+secrets.properties
+google-services.json
+GoogleService-Info.plist
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

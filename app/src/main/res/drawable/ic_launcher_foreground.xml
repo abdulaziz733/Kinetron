@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Connecting Flow Loop (S-Curve / Infinity path) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#40E0D0"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 36,36 C 45,36 50,58 64,58 C 76,58 76,42 64,42 C 50,42 45,72 36,72 C 26,72 26,52 36,52 C 48,52 54,36 68,36" />
+
+    <!-- Top Left Pebble Node -->
+    <path
+        android:fillColor="#20B2AA"
+        android:pathData="M38,24 C45,24 49,29 46,36 C43,42 33,42 30,36 C27,30 31,24 38,24 Z" />
+
+    <!-- Middle Right Pebble Node -->
+    <path
+        android:fillColor="#008080"
+        android:pathData="M66,42 C74,42 78,47 75,54 C72,61 60,61 57,54 C54,47 58,42 66,42 Z" />
+
+    <!-- Bottom Left Pebble Node -->
+    <path
+        android:fillColor="#40E0D0"
+        android:pathData="M40,58 C46,58 50,62 48,68 C46,74 36,74 34,68 C32,62 34,58 40,58 Z" />
+
+    <!-- Subtle accent inner dots in white for gloss/node centers -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,30 A2,2 0 1,1 36.99,30 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,48 A2.5,2.5 0 1,1 64.99,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,63 A1.5,1.5 0 1,1 38.99,63 Z" />
+
+</vector>
